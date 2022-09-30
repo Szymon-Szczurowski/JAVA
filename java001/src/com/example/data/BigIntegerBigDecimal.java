@@ -5,7 +5,6 @@ import java.math.BigInteger;
 
 public class BigIntegerBigDecimal {
     public static void main(String[] args) {
-
         BigInteger bigInt = new BigInteger("12312412442341212343243242342343412");
         bigInt = bigInt.add(new BigInteger("1234234324234235423"));
         System.out.println("Wynik: " + bigInt);
