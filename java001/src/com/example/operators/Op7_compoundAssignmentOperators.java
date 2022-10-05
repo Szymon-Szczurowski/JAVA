@@ -13,6 +13,7 @@ public class Op7_compoundAssignmentOperators {
         b *= 3; // to samo co b = b * 3
         System.out.println(b); // 6
 
+
         int c = 20;
         c %= 3; // to samo co c = c % 3
         System.out.println(c); // 2
