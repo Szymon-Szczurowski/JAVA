@@ -1,4 +1,4 @@
-package com.example.basics.control_flow_statements;
+package com.example.control_flow_statements;
 
 public class Break {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class Break {
             if(i > 3) break;
         }
 
-        System.out.println("Dalsza częśćprogramu");
+        System.out.println("Dalsza część programu");
 
 
         int a = 10;
