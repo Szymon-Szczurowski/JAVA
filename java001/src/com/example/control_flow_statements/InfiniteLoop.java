@@ -14,6 +14,7 @@ public class InfiniteLoop {
             }
         }
 
+
         for( ; ; ) {
             int random = (int)Math.round(10 * Math.random());
 
@@ -25,6 +26,7 @@ public class InfiniteLoop {
             }
         }
 
+
     }
 
-}
+            }
