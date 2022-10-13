@@ -7,6 +7,7 @@ public class Function_startsWith_endsWith {
         if (str.startsWith("PHP")) {
             System.out.println("Start with PHP");
         }
+
         if (str.startsWith("Java")) {
             System.out.println("Start with Java");
         }
@@ -14,7 +15,6 @@ public class Function_startsWith_endsWith {
         if (str.endsWith("program")) {
             System.out.println("End with program");
         }
-
 
     }
 }
