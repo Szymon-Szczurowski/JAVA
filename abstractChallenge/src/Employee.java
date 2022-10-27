@@ -26,7 +26,7 @@ public abstract class Employee {
         this.surname = surname;
     }
 
-    @Override
+
     public abstract String toString();
 
 
