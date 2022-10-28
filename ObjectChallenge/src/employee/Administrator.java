@@ -1,0 +1,14 @@
+package employee;
+
+public class Administrator extends  Employee{
+    String certificates;
+
+    public Administrator(String name, String surname, String certificates) {
+        super(name, surname);
+        this.certificates = certificates;
+    }
+
+    public void printInfo() {
+        System.out.println("Name: " + name+ " surname: " + surname  + " certificates: " + certificates);
+    }
+}
