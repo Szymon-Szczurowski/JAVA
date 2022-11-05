@@ -1,7 +1,7 @@
-public class Product {
-    protected String name;
+public class Animal {
+    private String name;
 
-    public Product(String name) {
+    public Animal(String name) {
         this.name = name;
     }
 
@@ -12,11 +12,13 @@ public class Product {
     public void setName(String name) {
         this.name = name;
     }
+
     @Override
     public String toString() {
-        return "Product{" +
+        return "Animal{" +
                 "name='" + name + '\'' +
                 '}';
     }
+
 
 }
